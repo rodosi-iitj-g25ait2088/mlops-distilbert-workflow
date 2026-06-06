@@ -8,15 +8,15 @@ This project details an end-to-end MLOps workflow designed to classify Goodreads
 ## Project Framework
 
 - [Project Objective](#project-objective)
-- [Dataset Details](#dataset-details)
+- [Dataset](#dataset)
 - [Pipeline Architecture](#pipeline-architecture)
-- [Model Design](#model-design)
-- [Training Parameters](#training-parameters)
-- [MLOps Integration](#mlops-integration)
-- [Performance Metrics](#performance-metrics)
-- [Repository Layout](#repository-layout)
-- [Execution & Reproduction](#execution--reproduction)
-- [Project Artifacts](#project-artifacts)
+- [Model Architecture](#model-architecture)
+- [Training Configuration](#training-configuration)
+- [MLOps Components](#mlops-components)
+- [Results](#results)
+- [Project Structure](#project-structure)
+- [Setup & Reproduction](#setup-&-reproduction)
+- [Links](-links)
 
 ---
 
