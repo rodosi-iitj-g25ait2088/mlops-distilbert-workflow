@@ -126,7 +126,7 @@ DistilBERT is a distilled (compressed) version of BERT that retains ~97% of BERT
 - Publicly accessible — anyone can load and run inference with one line:
 ```python
 from transformers import pipeline
-classifier = pipeline("text-classification", model="DishaSinghania/distilbert-goodreads-genres")
+classifier = pipeline("text-classification", model="Rodosi/mlops-distilbert-workflow")
 result = classifier("This fantasy novel had incredible world-building and magic systems.")
 print(result)
 ```
@@ -149,7 +149,7 @@ Eval Loss            |  2.2483  |
 
 ```
 mlops-assignment2/
-├── mlops-assignment.ipynb      # Kaggle notebook — full training pipeline
+├── mlops-assignment2.ipynb      # Kaggle notebook — full training pipeline
 ├── train_pipeline.py           # Python script exported from Kaggle notebook
 ├── requirements.txt            # All Python dependencies
 └── README.md                   # This file
@@ -161,7 +161,7 @@ mlops-assignment2/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Disha19/mlops-assignment2.git
+git clone https://github.com/rodosi-iitj-g25ait2088/mlops-distilbert-workflow.git
 cd mlops-assignment2
 ```
 
@@ -178,10 +178,10 @@ export HF_TOKEN=<your_huggingface_token>
 > On Kaggle: use **Add-ons → Secrets** to store these securely instead of environment variables.
 
 ### 4. Run on Kaggle (Recommended)
-- Import `mlops-assignment.ipynb` into Kaggle
+- Import `mlops-assignment2.ipynb` into Kaggle
 - Enable GPU: Settings → Accelerator → GPU T4
 - Enable Internet: Settings → Environment Preferences → Internet ON
-- Add secrets: Add-ons → Secrets → add `WANDB_API_KEY` and `HF_TOKEN`
+- Add secrets: Add-ons → Secrets → add `WANDB_API_KEY_2` and `HF_TOKEN_2`
 - Click **Run All**
 
 ### 5. Run locally (CPU only — slow)
