@@ -16,7 +16,7 @@ This project details an end-to-end MLOps workflow designed to classify Goodreads
 - [Results](#results)
 - [Project Structure](#project-structure)
 - [Setup & Reproduction](#setup-&-reproduction)
-- [Links](-links)
+- [Links](#links)
 
 ---
 
