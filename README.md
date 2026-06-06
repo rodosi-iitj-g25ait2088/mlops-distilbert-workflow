@@ -1,4 +1,4 @@
-# MLOps Assignment 2: Text Classification Pipeline
+# MLOps Assignment 2: Fine-Tuning DistilBERT for Book Genre Classification
 ## Genre Categorization for Goodreads Reviews via Fine-Tuned DistilBERT
 
 This project details an end-to-end MLOps workflow designed to classify Goodreads book reviews into seven distinct genres using a fine-tuned `distilbert-base-cased` architecture. The implementation showcases standard MLOps practices, including GPU-accelerated training via Kaggle, experiment logging with Weights & Biases, and model hosting on the Hugging Face Hub.
