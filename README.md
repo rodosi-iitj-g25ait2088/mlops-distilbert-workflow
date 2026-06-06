@@ -118,7 +118,7 @@ DistilBERT is a distilled (compressed) version of BERT that retains ~97% of BERT
 ### 2. Training Platform — Kaggle Notebooks
 - Hardware: **GPU T4** (free tier, 30 hrs/week)
 - Internet enabled for HuggingFace model downloads and Hub push
-- API credentials stored securely via **Kaggle Secrets** (`WANDB_API_KEY`, `HF_TOKEN`)
+- API credentials stored securely via **Kaggle Secrets** (`WANDB_API_KEY_2`, `HF_TOKEN_2`)
 - Zero hardcoded credentials in any code
 
 ### 3. Model Deployment — Hugging Face Hub
